@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://www.tech5hop.com/wp-content/uploads/2019/12/anime.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.kim{
+    width: 450px;
+    background-color: rgb(158, 255, 215);
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    padding: 40px 30px; 
+}
+.kim h1{
+    font-size: px;
+    text-align: center;
+}
+.namebox1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px; 
+    border-radius: 90px;
+    font-size: 18px;
+    
+}
+
+
+.namebox1 input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    flex: 1; 
+    box-sizing: border-box;
+    
+   
+}
+
+
+.user {
+    margin-bottom: 15px;
+    font-size: 16px;
+    
+}
+
+
+.user input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%; 
+    box-sizing: border-box; 
+    font-size: 16px;
+    border-radius: 90px;
+   
+}
+    
+
+
+input:focus {
+    border-color: skyblue;
+    outline: none;
+}
+.pass1, .pass2 {
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius:90px;
+    font-size: 16px;
+}
+
+.pass1 input .pass2 input {
+    background-color: white;
+    
+}
+
+.pass1 input:focus .pass2 input:focus {
+    border-color: skyblue;
+    outline: none;
+    background-color: white;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.create-account {
+    background-color: green; 
+}
+
+
+.back-button {
+    background-color: red; /* Red */
+}
+
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.back-link {
+    text-decoration: none;
+}
+
+
